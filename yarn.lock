@@ -732,13 +732,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.12.5":
-  version "7.13.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.7.tgz#d494e39d198ee9ca04f4dcb76d25d9d7a1dc961a"
-  integrity sha512-h+ilqoX998mRVM5FtB5ijRuHUDVt5l3yfoOi2uh18Z/O3hvyaHQ39NpxVkCIG5yFs+mLq/ewFp8Bss6zmWv6ZA==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
 "@babel/template@^7.0.0", "@babel/template@^7.12.13", "@babel/template@^7.3.3":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.12.13.tgz#530265be8a2589dbb37523844c5bcb55947fb327"
@@ -1243,17 +1236,10 @@
     "@ledgerhq/errors" "^5.43.0"
     events "^3.3.0"
 
-<<<<<<< HEAD
-"@ledgerhq/live-common@^18.7.1":
-  version "18.7.1"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/live-common/-/live-common-18.7.1.tgz#361c030f9b7b5d15f3fe82d6fa459c17a03c27cd"
-  integrity sha512-JgQNEUuFUoVKCDVnN6idEUVa9AYy+vLKtt3BDN5xjcH3B8dMoC7eoP/8duKf0STs6JknY3ujsjWdV/UYdyydYg==
-=======
-"@ledgerhq/live-common@18.5.5-swap-api-v2.5":
-  version "18.5.5-swap-api-v2.5"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/live-common/-/live-common-18.5.5-swap-api-v2.5.tgz#5ba8e6f64ae2981cda814707e05d45092d03a9c6"
-  integrity sha512-DZgHfdJ+97YmwGIQbw1sWOMGDFmMzeHDxATyUju2FZFkCoReo79JDdEaFytSZU2ssBBx0CQOp4oQHEVGL9+4XQ==
->>>>>>> a16b4165... LL-4447 Floating rate support for swap
+"@ledgerhq/live-common@^18.7.1-swap-api-v2.8":
+  version "18.7.1-swap-api-v2.8"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/live-common/-/live-common-18.7.1-swap-api-v2.8.tgz#6a4fef9a61ddf96bc10588b077f649a4ee5625c7"
+  integrity sha512-Zlfi5mdwiQIl8buqweDHRiZm9gypSdzqFQ2aHZwXeOhzeGcA0+UQsl2i2HtcB92xXmNpVurcXY5QtRSXmGayZQ==
   dependencies:
     "@ledgerhq/compressjs" "1.3.2"
     "@ledgerhq/cryptoassets" "5.45.0"
@@ -1268,11 +1254,7 @@
     "@ledgerhq/hw-transport-mocker" "^5.45.0"
     "@ledgerhq/hw-transport-node-speculos" "^5.45.0"
     "@ledgerhq/logs" "5.43.0"
-<<<<<<< HEAD
     "@polkadot/types" "3.11.1"
-=======
-    "@polkadot/types" "3.6.4"
->>>>>>> a16b4165... LL-4447 Floating rate support for swap
     "@walletconnect/client" "1.3.6"
     async "^3.2.0"
     axios "0.21.1"
@@ -1416,7 +1398,6 @@
     hash.js "^1.1.7"
     randombytes "^2.1.0"
 
-<<<<<<< HEAD
 "@polkadot/metadata@3.11.1":
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/@polkadot/metadata/-/metadata-3.11.1.tgz#c3e9645f6f78c8e02e0da695f3718b9d69f450a8"
@@ -1433,24 +1414,6 @@
   version "5.9.2"
   resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-5.9.2.tgz#c687525b5886c9418f75240afe22b562ed88e2dd"
   integrity sha512-JQyXJDJTZKQtn8y3HBHWDhiBfijhpiXjVEhY+fKvFcQ82TaKmzhnipYX0EdBoopZbuxpn/BJy6Y1Y/3y85EC+g==
-=======
-"@polkadot/metadata@3.6.4":
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/@polkadot/metadata/-/metadata-3.6.4.tgz#033dad14d962c14b61cbcbfe5db7ef9700a4e771"
-  integrity sha512-EPxpiRnaqUvySLyasAXRJk7lb7YS0xvRuLHDaMIuoPpjtr1TqXxvhH4q/VjzjHpXTtriAVPczNydD+NtKYXDiQ==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@polkadot/types" "3.6.4"
-    "@polkadot/types-known" "3.6.4"
-    "@polkadot/util" "^5.4.4"
-    "@polkadot/util-crypto" "^5.4.4"
-    bn.js "^4.11.9"
-
-"@polkadot/networks@5.7.1":
-  version "5.7.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-5.7.1.tgz#550636c43cae310b32ce3d0009683b9a35f1910f"
-  integrity sha512-yGfU4nU+Yh0Rx19ti8hCIaBHXx+ZTL9cj2C2nlv1vjc7LXJZfLqON1SyrtgAfPuwMv0bZWNFReDHZZgd4sjgfQ==
->>>>>>> a16b4165... LL-4447 Floating rate support for swap
   dependencies:
     "@babel/runtime" "^7.13.8"
 
@@ -1463,7 +1426,6 @@
     "@polkadot/ui-shared" "0.52.1"
     react-native-svg "^12.0.3"
 
-<<<<<<< HEAD
 "@polkadot/types-known@3.11.1":
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/@polkadot/types-known/-/types-known-3.11.1.tgz#f695c9155fa54eeed95cea179bb8cb2398726bd3"
@@ -1485,28 +1447,6 @@
     "@polkadot/util" "^5.9.2"
     "@polkadot/util-crypto" "^5.9.2"
     "@polkadot/x-rxjs" "^5.9.2"
-=======
-"@polkadot/types-known@3.6.4":
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/@polkadot/types-known/-/types-known-3.6.4.tgz#765c212a7b8a9e4fa1538041911a0aa30302c5e4"
-  integrity sha512-wK2VN95h8isyHzkf9PD3/8udlj1pw54tOoSQYv9LPJ94EBLM0iAUYvz7dQX4MGy3H6kcJvwT21639Bt7aqWhzQ==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@polkadot/types" "3.6.4"
-    "@polkadot/util" "^5.4.4"
-    bn.js "^4.11.9"
-
-"@polkadot/types@3.6.4":
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/@polkadot/types/-/types-3.6.4.tgz#cdecfc317dd510b58854fe7c2f08e675f7c160b2"
-  integrity sha512-cfI5m08wk/1Cexxm0Qv+TELQPp1GQoWefuKBDMH2g8f4dbMD2lTelsmsAeRWvEoiS9Gd69PGjD0EwSIdjzj5ow==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@polkadot/metadata" "3.6.4"
-    "@polkadot/util" "^5.4.4"
-    "@polkadot/util-crypto" "^5.4.4"
-    "@polkadot/x-rxjs" "^5.4.4"
->>>>>>> a16b4165... LL-4447 Floating rate support for swap
     "@types/bn.js" "^4.11.6"
     bn.js "^4.11.9"
 
@@ -1518,7 +1458,6 @@
     "@babel/runtime" "^7.9.2"
     color "^3.1.2"
 
-<<<<<<< HEAD
 "@polkadot/util-crypto@^5.9.2":
   version "5.9.2"
   resolved "https://registry.yarnpkg.com/@polkadot/util-crypto/-/util-crypto-5.9.2.tgz#3858cfffe7732458b4a2b38ece01eaf52a3746c2"
@@ -1529,18 +1468,6 @@
     "@polkadot/util" "5.9.2"
     "@polkadot/wasm-crypto" "^3.2.4"
     "@polkadot/x-randomvalues" "5.9.2"
-=======
-"@polkadot/util-crypto@^5.4.4":
-  version "5.7.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/util-crypto/-/util-crypto-5.7.1.tgz#f96771c4a775676fd122b8c0529574a40bcd4b31"
-  integrity sha512-sZaI8TSKDtYY1T2FlkeMz9Y6Ko+HUcvniGjIfmKz/NINqo2wc6edqqr8L/I4S0PxB4JRvYhuu/MDxw1I/Ofw1Q==
-  dependencies:
-    "@babel/runtime" "^7.12.13"
-    "@polkadot/networks" "5.7.1"
-    "@polkadot/util" "5.7.1"
-    "@polkadot/wasm-crypto" "^3.2.3"
-    "@polkadot/x-randomvalues" "5.7.1"
->>>>>>> a16b4165... LL-4447 Floating rate support for swap
     base-x "^3.0.8"
     base64-js "^1.5.1"
     blakejs "^1.1.0"
@@ -1553,17 +1480,10 @@
     tweetnacl "^1.0.3"
     xxhashjs "^0.2.2"
 
-<<<<<<< HEAD
 "@polkadot/util@5.9.2", "@polkadot/util@^5.9.2":
   version "5.9.2"
   resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-5.9.2.tgz#ad2494e78ca6c3aadd6fb394a6be55020dc9b2a8"
   integrity sha512-p225NJusnXeu7i2iAb8HAGWiMOUAnRaIyblIjJ4F89ZFZZ4amyliGxe5gKcyjRgxAJ44WdKyBLl/8L3rNv8hmQ==
-=======
-"@polkadot/util@5.7.1", "@polkadot/util@^5.4.4":
-  version "5.7.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-5.7.1.tgz#fa1d9805ba2b35f5543485f7ba16c3da1cb1c368"
-  integrity sha512-lrBwgg0mF6dHtWIRhXTJVLpGK9/UnIGpRrjT9PG+OZB7dVeDPlCOPcJAHjyF/BINeZX830I+ytZqdfo3LOJeyA==
->>>>>>> a16b4165... LL-4447 Floating rate support for swap
   dependencies:
     "@babel/runtime" "^7.13.8"
     "@polkadot/x-textdecoder" "5.9.2"
@@ -1613,17 +1533,10 @@
     "@babel/runtime" "^7.13.8"
     "@polkadot/x-global" "5.9.2"
 
-<<<<<<< HEAD
 "@polkadot/x-rxjs@^5.9.2":
   version "5.9.2"
   resolved "https://registry.yarnpkg.com/@polkadot/x-rxjs/-/x-rxjs-5.9.2.tgz#925b7c3325678b137ca30af6a726b22c5e8f9125"
   integrity sha512-cuF4schclspOfAqEPvbcA3aQ9d3TBy2ORZ8YehxD0ZSHWJNhefHDIUDgS5T3NtPhSKgcEmSlI5TfVfgGFxgVMg==
-=======
-"@polkadot/x-rxjs@^5.4.4":
-  version "5.7.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-rxjs/-/x-rxjs-5.7.1.tgz#e5bf6de5620cc2fe55820742ce4e4067daa032da"
-  integrity sha512-wozVCIMT9mPZVrPwGZttwDLutIMFE9Ltd/mNbYnAJHpV4TnbZ1iikcSxY+fRWQ8EXNW6zh8kFYk1r+yyiLCdyg==
->>>>>>> a16b4165... LL-4447 Floating rate support for swap
   dependencies:
     "@babel/runtime" "^7.13.8"
     rxjs "^6.6.6"
